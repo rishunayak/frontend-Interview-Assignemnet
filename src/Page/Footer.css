@@ -1,0 +1,51 @@
+.footer
+{
+    display: grid;
+    grid-template-areas: "footer1 footer2" ;
+}
+.sideFooter
+{ 
+  display: grid;
+    grid-template-areas: "footer3 footer4" ;
+}
+
+@media only screen and (max-width: 430px) {
+    
+    .footer
+{
+  width: 95%;
+    grid-template-areas:
+     "footer2 " 
+    "footer1"
+    ;
+}
+.sideFooter
+{ 
+  display: grid;
+    grid-template-areas: "footer3"
+    "footer4" ;
+}
+.footer1
+{
+    font-size: 18px;
+}
+
+  }
+
+
+  .footer1
+  {
+    grid-area: footer1;
+  }
+  .footer2
+  {
+    grid-area: footer2;
+  }
+  .footer3
+  {
+    grid-area: footer3;
+  }
+  .footer4
+  {
+    grid-area: footer4;
+  }
